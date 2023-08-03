@@ -9,18 +9,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
-    <title>Lista de Tarefas</title>
+    <title>Versículos Biblícos</title>
 </head>
 
 <body>
     <main>
         <div>
-            <h1 id="title">Lista de Tarefas do Dia!</h1>
-            <ul id="list">
-
-            </ul>
+            <h1 id="title">Versículos Biblícos</h1>
+            <h3 id="description">Contribua com uma palavra de Fé!</h3>
+            <div class="card-list">
+                <ul id="list">
+                </ul>
+            </div>
         </div>
-        <div>
+        <div class="button-input">
             <input type="text" id="task_name" name="task_name" placeholder="Nome da Tarefa">
             <button id="add-task-button" onclick="addNewTask()">Adicionar</button>
         </div>

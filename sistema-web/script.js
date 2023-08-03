@@ -9,6 +9,7 @@ function addNewTask() {
 
     var listItem = document.createElement("li");
     listItem.className = "list-item";
+    listItem.classList.add("list-item");
 
     const textElement = document.createTextNode(text);
     listItem.appendChild(textElement);
@@ -16,13 +17,15 @@ function addNewTask() {
 }
 
 // Adicione o evento de escuta para a tecla Enter após o carregamento da página
-    document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     var input = document.getElementById("task_name");
     var button = document.getElementById("add-task-button");
 
-    input.addEventListener("keyup", function(event) {
+    input.addEventListener("keyup", function (event) {
         if (event.key === "Enter") {
             button.click();
         }
     });
 });
+
+
