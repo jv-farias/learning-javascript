@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+#title {
+    color: green;
+    font-size: 36px;
+}
+
+.list {
+    font-size: 18px;
+}
+
+input {
+    height: 48px;
+    background-color: transparent;
+    color: white;
+    border: solid 3px green;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+#add-task-button {
+    background-color: white;
+    color: rgb(255, 0, 43);
+    border-style: none;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px;
+}
+
